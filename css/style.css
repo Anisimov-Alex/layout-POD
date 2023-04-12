@@ -69,6 +69,9 @@ header {
     color: white;
     text-decoration: none;
 }
+.header__link:hover{
+    opacity: 0.8;
+}
 
 /* HEADER styles END */
 
@@ -110,12 +113,13 @@ header {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
-    /* кнопка */
     background: linear-gradient(271.33deg, #6AC7E4 -2.4%, #99E7FF 87.14%), #88D4EC;
-    /* ryjgrf */
     box-shadow: 2px 6px 35px rgba(124, 213, 241, 0.2);
     border-radius: 13px;
     margin-bottom: 0;
+}
+.main__button:hover{
+    background: linear-gradient(271.33deg, #549fb6 -2.4%, #7fc3d8 87.14%), #70b3c7;
 }
 
 .main a {
